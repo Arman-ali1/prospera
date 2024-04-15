@@ -30,12 +30,12 @@ function Home() {
   return (
     <div className="bg-black text-white grid sm:grid-cols-1 gap-4">
       <div className="sm:flex sm:flex-col sm:h-min[30rem] m-auto  object-cover ">
-        <img className="sm:h-[35rem] sm:w-[70rem] m-4 rounded-xl sm:shadow-xl sm:shadow-slate-500" src={homeImage}></img>
+        <img className="sm:h-[35rem] sm:w-[70rem] m-4 rounded-xl sm:shadow-xl sm:shadow-slate-500 " src={homeImage}></img>
       </div>
       <div className="sm:col-span-1 p-1  sm:hidden">
         <img
           className=" sm:h-[30rem] sm:w-[35rem] object-cover h-[19rem] w-[18rem] m-auto"
-          src={Image6}
+          src={homeImage}
         ></img>
       </div>
       <div className="sm:col-span-2 text-center p-2 ">
